@@ -27,7 +27,9 @@
 				"fallbacks": false
 			},
 			"themeConfig": {
-				"primary": "#e8c4f9"
+				"primary": "#e8c4f9",
+				"gradient-from": "#D83333",
+				"gradient-to": "#F041FF"
 			},
 			"transition": "fade"
 		}

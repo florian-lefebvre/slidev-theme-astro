@@ -6,11 +6,34 @@ The Astro theme for Slidev.
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>astro</b>
----</code></pre>
+```yaml
+---
+theme: astro
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
+
+## Features
+
+### `text-gradient` class
+
+Use the `text-gradient` to have a nice looking gradient:
+
+```md
+# Something <span class="text-gradient font-normal">big</span>
+```
+
+You can customize the gradient colors in `slides.md`:
+
+```yaml
+---
+theme: astro
+themeConfig:
+    gradient-from: red
+    gradient-to: blue
+---
+```
 
 ## Licensing
 

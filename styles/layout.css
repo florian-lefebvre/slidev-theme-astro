@@ -92,7 +92,7 @@
 	}
 
 	a {
-		@apply border-current border-b border-dashed hover:(bg-gradient-to-tr from-[#D83333] to-[#F041FF] bg-clip-text text-transparent);
+		@apply border-current border-b border-dashed hover:(bg-gradient-to-tr from-$slidev-theme-gradient-from to-$slidev-theme-gradient-to bg-clip-text text-transparent);
 	}
 
 	ol {
@@ -163,5 +163,5 @@
 }
 
 .text-gradient {
-	@apply bg-gradient-to-tr from-[#D83333] to-[#F041FF] bg-clip-text text-transparent font-bold;
+	@apply bg-gradient-to-tr from-$slidev-theme-gradient-from to-$slidev-theme-gradient-to bg-clip-text text-transparent font-bold;
 }
