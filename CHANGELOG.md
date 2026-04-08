@@ -1,5 +1,11 @@
 # slidev-theme-astro
 
+## 0.0.3
+
+### Patch Changes
+
+- [`0a5cd7d`](https://github.com/florian-lefebvre/slidev-theme-astro/commit/0a5cd7d11409ceab03ba0f9f35308070b58dc645) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Ship as few files as possible
+
 ## 0.0.2
 
 ### Patch Changes

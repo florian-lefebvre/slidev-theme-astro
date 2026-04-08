@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-astro",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Astro theme for Slidevy",
   "type": "module",
   "packageManager": "pnpm@10.33.0",
@@ -12,7 +12,12 @@
     "slidev-theme",
     "slidev"
   ],
-  "files": ["layoutHelper.ts", "styles", "setup", "layout"],
+  "files": [
+    "layoutHelper.ts",
+    "styles",
+    "setup",
+    "layout"
+  ],
   "slidev": {
     "colorScheme": "dark",
     "defaults": {
