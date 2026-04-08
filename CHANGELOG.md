@@ -1,5 +1,11 @@
 # slidev-theme-astro
 
+## 0.1.0
+
+### Minor Changes
+
+- [`512af2f`](https://github.com/florian-lefebvre/slidev-theme-astro/commit/512af2f72002180d5416512bdb374929494106d0) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Allows customizing the gradient color
+
 ## 0.0.3
 
 ### Patch Changes
