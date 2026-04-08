@@ -1,0 +1,56 @@
+{
+  "name": "slidev-theme-astro",
+  "version": "0.0.0",
+  "description": "The Astro theme for Slidevy",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.12.0",
+    "slidev": ">=52.0.0"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "slidev": {
+    "colorScheme": "dark",
+    "defaults": {
+      "fonts": {
+        "sans": "Inter, inter-fallback, system-ui, sans-serif",
+        "mono": "MDIO, md-io-fallback, monospace",
+        "fallbacks": false
+      },
+      "themeConfig": {
+        "primary": "#e8c4f9"
+      },
+      "transition": "fade"
+    }
+  },
+  "author": "florian-lefebvre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florian-lefebvre/slidev-theme-astro.git"
+  },
+  "bugs": "https://github.com/florian-lefebvre/slidev-theme-astro/issues",
+  "homepage": "https://github.com/florian-lefebvre/slidev-theme-astro#readme",
+  "license": "MIT",
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png",
+    "changeset": "changeset",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write",
+    "ci-version": "changeset version && pnpm install --no-frozen-lockfile",
+    "ci-publish": "changeset publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.10",
+    "@changesets/cli": "2.30.0",
+    "@changesets/changelog-github": "0.6.0",
+    "@slidev/types": "52.14.1",
+    "vite": "8.0.2",
+    "vue": "3.5.32"
+  }
+}
