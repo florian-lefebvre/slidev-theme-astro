@@ -28,7 +28,18 @@
 			}
 		}
 	},
-	"files": {
-		"includes": ["**", "!**/dist", "!**/.astro"]
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		},
+		"linter": {
+			"enabled": false
+		}
+	},
+	"html": {
+		"experimentalFullSupportEnabled": true,
+		"formatter": {
+			"enabled": true
+		}
 	}
 }

@@ -1,2 +1,2 @@
-import './fonts.css'
-import './layout.css'
+import "./fonts.css";
+import "./layout.css";
