@@ -12,6 +12,7 @@
     "slidev-theme",
     "slidev"
   ],
+  "files": ["layoutHelper.ts", "styles", "setup", "layout"],
   "slidev": {
     "colorScheme": "dark",
     "defaults": {
