@@ -1,0 +1,167 @@
+.slidev-page {
+  @apply bg-zinc-50 dark:bg-zinc-950;
+}
+
+:root {
+  @apply [--slidev-code-background:theme(colors.zinc.800)] dark:[--slidev-code-background:theme(colors.zinc.900)];
+}
+
+.slidev-layout {
+  @apply px-14 py-10 text-[1.1rem];
+
+  :not(pre) > code {
+    @apply text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  div {
+    @apply select-none;
+  }
+
+  pre,
+  code {
+    @apply select-text;
+  }
+
+  h1 {
+    @apply text-4xl mb-4 font-300 -ml-[0.05em];
+  }
+
+  h2 {
+    @apply text-2xl font-400;
+  }
+
+  h3 {
+    @apply text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em];
+  }
+
+  h3:not(.opacity-100) {
+    @apply opacity-40;
+  }
+
+  p {
+    @apply my-4 leading-6;
+  }
+
+  h1 + p {
+    @apply -mt-2 mb-4;
+  }
+
+  h2 + p,
+  h2 + ul,
+  h2 + table {
+    @apply mt-1;
+  }
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-5;
+  }
+
+  ul {
+    list-style: disc;
+    @apply mb-4;
+  }
+
+  li {
+    @apply ml-1.1em pl-0.2em leading-1.8em;
+  }
+
+  blockquote {
+    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l rounded;
+  }
+
+  blockquote > * {
+    @apply my-0;
+  }
+
+  table {
+    @apply w-full;
+  }
+
+  tr {
+    @apply border-b border-zinc-400 border-opacity-20;
+  }
+
+  th {
+    @apply text-left font-400;
+  }
+
+  a {
+    @apply border-current border-b border-dashed hover:(bg-gradient-to-tr from-[#D83333] to-[#F041FF] bg-clip-text text-transparent);
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  td,
+  th {
+    @apply p-2 py-3;
+  }
+
+  b,
+  strong {
+    @apply font-600;
+  }
+
+  kbd {
+    @apply border border-zinc-400 border-b-2 border-opacity-20 rounded;
+    @apply bg-zinc-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
+  }
+}
+
+.slidev-layout.center {
+  @apply text-center;
+
+  h1 {
+    @apply text-5xl text-balance;
+  }
+}
+
+.slidev-layout.intro-image,
+.slidev-layout.intro {
+  @apply h-full;
+
+  h1 {
+    @apply text-6xl font-700 leading-20;
+  }
+
+  h1 + p {
+    @apply font-700 -mt-4 text-2xl;
+  }
+}
+.slidev-layout.fact {
+  @apply text-center;
+  h1 {
+    @apply text-8xl font-700;
+  }
+  h1 + p {
+    @apply font-700 text-2xl;
+  }
+}
+.slidev-layout.statement {
+  @apply text-center;
+
+  h1 {
+    @apply text-6xl font-700;
+  }
+}
+.slidev-layout.quote {
+  h1 + p {
+    @apply mt-6 ml-6;
+  }
+}
+.slidev-layout.section {
+  h1 {
+    @apply text-6xl font-500 leading-20;
+  }
+}
+
+.text-gradient {
+  @apply bg-gradient-to-tr from-[#D83333] to-[#F041FF] bg-clip-text text-transparent font-bold;
+}
